@@ -1,3 +1,11 @@
+<?php
+
+require __DIR__ . '/thirdPage.php';
+
+$title = 'About Page';
+
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -9,7 +17,7 @@
 
 <body>
   <header>
-    <h1>About Page</h1>
+    <h1><?php echo $title ?></h1>
   </header>
 </body>
 
