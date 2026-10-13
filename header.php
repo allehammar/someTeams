@@ -10,7 +10,7 @@ $title = 'Welcome to Some Teams';
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Some Teams</title>
 
     <link rel="stylesheet" href="style.css" />
 
@@ -18,6 +18,8 @@ $title = 'Welcome to Some Teams';
 
 <body>
     <header>
-        <a href="about.php">About</a>
-        <h1><?php echo $title ?></h1>
+        <nav>
+            <a href="about.php">About</a>
+        </nav>
     </header>
+    <h1><?php echo $title ?></h1>

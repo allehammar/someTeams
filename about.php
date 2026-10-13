@@ -19,6 +19,7 @@ $title = 'About Page';
   <header>
     <h1><?php echo $title ?></h1>
   </header>
+  <p>My name is Mattias Holgersson and I am the author of this page. As of now I am studying to become a web developer.</p>
 </body>
 
 </html>

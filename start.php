@@ -11,12 +11,6 @@ require __DIR__ . '/header.php';
 ?>
 
 
-
-</body>
-
-</html>
-
-
 <ul>
   <?php
   /* Foreach loop that loop through all teams and present each value within the team name as a h3 tag. */
@@ -33,9 +27,13 @@ require __DIR__ . '/header.php';
     <li><?php echo "City: " . $value['city'] ?></li>
     <li><a href="<?php echo ($value['url']) ?>">Link to homepage</a></li>
     <li><a href="<?php echo ($value['logo']) ?>">Logo</a></li>
-    <li><a href="<?php echo ($value['logo_uefa']) ?>">Logo Uefa</a></li>
+    <li><img src="<?php echo ($value['logo_uefa']) ?>" alt="Team Logo"></li>
   <?php
   endforeach;
   ?>
 
 </ul>
+
+</body>
+
+</html>
