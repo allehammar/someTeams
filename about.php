@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__ . '/thirdPage.php';
+/*require __DIR__ . '/thirdPage.php';*/
 
 $title = 'About Page';
 
