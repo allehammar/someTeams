@@ -1,5 +1,5 @@
 <?php
-
+//Define variable for title later used with echo
 $title = 'Welcome to Some Teams';
 
 ?>
@@ -11,12 +11,11 @@ $title = 'Welcome to Some Teams';
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Some Teams</title>
-
     <link rel="stylesheet" href="style.css" />
-
 </head>
 
 <body>
+    <!--Three divs, parent and childs. A tag with link to about page-->
     <div class="startCards">
         <div class="startCard">
             <header>
