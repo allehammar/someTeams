@@ -1,5 +1,6 @@
 <?php
 
+//Fetchable info about the teams in an array
 $teamInfos = [
     'Ajax' => [
         'info' => 'Founded in 1900, AFC Ajax is one of the largest and most storied clubs in European football.'
