@@ -17,9 +17,15 @@ $title = 'Welcome to Some Teams';
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="about.php">About</a>
-        </nav>
-    </header>
-    <h1><?php echo $title ?></h1>
+    <div class="startCards">
+        <div class="startCard">
+            <header>
+                <nav>
+                    <a href="about.php">About</a>
+                </nav>
+            </header>
+        </div>
+        <div class="startCard title">
+            <h1><?php echo $title ?></h1>
+        </div>
+    </div>
