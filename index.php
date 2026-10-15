@@ -28,7 +28,6 @@ require_once __DIR__ . '/header.php';
         <li><a href="<?php echo ($value['url']) ?>">Link to homepage</a></li>
         <li><a href="<?php echo ($value['logo']) ?>">Logo</a></li>
         <li><img src="<?php echo ($value['logo_uefa']) ?>" alt="Team Logo"></li>
-        <li><a href="thirdPage.php"><button>More info!</button></a></li>
         <li><a href="<?php echo 'thirdPage.php?name=' . $key ?>"><button>More info!</button></a></li>
       </div>
     <?php

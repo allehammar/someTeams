@@ -26,10 +26,6 @@ $teamName = $_GET['name'];
     <div class="card">
       <h1><?php echo $title ?></h1>
       <h3><?php echo $teamName; ?></h3>
-      <p><?php echo $teams[$teamName]['league']; ?></p>
-      <p><?php echo $teams[$teamName]['uefa-coefficient-ranking']; ?></p>
-      <p><?php echo $teams[$teamName]['league-position']; ?></p>
-      <p><?php echo $teams[$teamName]['city']; ?></p>
       <p><?php echo $teamInfos[$teamName]['info']; ?></p>
     </div>
   </div>
