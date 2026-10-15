@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #def4c6;
+}
+
+.startCards {
+  background-color: #1b512d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 12%;
+}
+
+.startCard {
+  margin: 20px;
+  padding: 10px;
+  background-color: #b1cf5f;
+  border-radius: 45%;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+  position: sticky;
+}
+
+.startCard.title {
+  background-color: #73e2a7;
+}
+
+.startCards:has(.startCard.title.aboutPage) {
+  flex-direction: row;
+}
+
+.cards {
+  max-width: 1200px;
+  max-height: 8000px;
+  position: relative;
+  padding: 50px;
+}
+
+.card {
+  display: inline-block;
+  padding: 20px;
+  width: 40%;
+  height: 30%;
+  background-color: #b1cf5f;
+  margin: 50px;
+  border-radius: 5%;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.card.authorInfo {
+  text-align: left;
+}
